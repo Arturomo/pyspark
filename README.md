@@ -39,7 +39,7 @@ The code provided in this repository showcases a Python script that utilizes PyS
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your-username/pyspark-dataframe-merge-clean.git
+    git clone https://github.com/Arturomo/pyspark.git
     ```
 
 2. Install dependencies:
