@@ -32,7 +32,13 @@
 						"type": "SqlDWSink",
 						"allowCopyCommand": true
 					},
-					"enableStaging": false
+					"enableStaging": true,
+					"stagingSettings": {
+						"linkedServiceName": {
+							"referenceName": "ls_datalake",
+							"type": "LinkedServiceReference"
+						}
+					}
 				},
 				"inputs": [
 					{
